@@ -1,0 +1,51 @@
+.container {
+  max-width: 360px;
+  margin: 20px auto;
+  border: 4px solid #000000;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.userInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.userImg {
+  background-color: #cdf5c96f;
+  border: 2px solid #4c6b3e;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.userName {
+  font-weight: 500;
+  font-size: 32px;
+  margin: 0;
+}
+.userTagLocation {
+  font-size: 24px;
+  color: #0000009d;
+}
+
+.statusList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.statusItem {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000000;
+  background-color: #cdf5c96f;
+  width: 100%;
+  font-size: 18px;
+  align-items: center;
+  padding: 10px;
+}
+.statusInfo {
+  font-weight: 700;
+}
